@@ -1,0 +1,22 @@
+.quote {
+	padding: 4rem 0;
+	margin:0 auto;
+	text-align: right;
+	font-family: 'Gaegu', cursive;
+	font-size: 0.9rem;
+	line-height: 1;
+}
+
+
+.quote strong {
+	font-weight: bold;
+	display: block;
+	margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 769px)  {
+	.quote {
+		font-size: 1.9rem;
+	}
+}

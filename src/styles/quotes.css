@@ -1,0 +1,46 @@
+
+.quotes blockquote {
+	margin: 1.75em 0 1.75em -2.2em;
+    padding: 0 0 0 1.75em;
+    /*border-right: #4A4A4A 0.4em solid;*/
+	/*font-size: 21px;*/
+    background: #f9f9f9;
+    margin: 1.5em 0px;
+    padding: 0.5em 10px;
+    quotes: "“" "”" "‘" "’";
+}
+
+.quotes blockquote::before {
+    content: open-quote;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+/*.quotes blockquote::after {
+    content: close-quote;
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}*/
+
+.quotes {
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quotes blockquote p {
+    display: inline-block;
+    /*width: 70%;*/
+}
+@media screen and (min-width: 769px)  {
+	.quotes {
+		/*width: 51%;*/
+		margin: 0 auto;
+	}
+}

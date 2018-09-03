@@ -1,0 +1,40 @@
+.zooboole {
+	flex-grow: 1;
+	min-width: 15%;
+	padding:0;
+}
+.zooboole img {
+	width: 150px;
+}
+
+.zooboole div {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+
+.zooboole h1, .zooboole h1 a {
+	margin: 0;
+	padding: 0;
+	font-weight: 100;
+	font-size: 2.2rem;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+}
+
+.zooboole span {
+	display: block;
+	margin:0;
+	color: #d9534f;
+	display: none;
+}
+
+@media screen and (min-width: 769px)  {
+	.zooboole img {
+		width: 100%;
+	}
+	.zooboole h1, .zooboole h1 a {
+		text-align: left;
+	}
+}

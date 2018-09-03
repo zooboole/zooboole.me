@@ -1,0 +1,11 @@
+.plain-text {
+	width: 90%;
+	margin: 2rem auto;
+	text-align: justify;
+}
+
+@media screen and (min-width: 769px)  {
+	.plain-text {
+		width: 50%;
+	}
+}

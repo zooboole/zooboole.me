@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Montserrat:300,400,500');
+:root {
+	--color-text: #404040;
+	--color-red: #d9534f;
+	--color-green: #5cb85c;
+	--color-white: #ffffff;
+	--color-grey: #cccccc;
+}
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--color-white);
+	line-height: 1.6525;
+	color: var(--color-text);
+	letter-spacing: 0.9px;
+}
+
+img {
+	min-width:100%;
+	max-width:100%;
+}
+
+a {
+	font-size: 13px;
+	display: inline-block;
+	/*text-transform: uppercase;*/
+	/*font-family: 'Gaegu', cursive;*/
+	color: var(--color-red);
+	text-decoration: none;
+	transition: all 0.5s;
+}
+a:hover {
+	color: var(--color-green);
+}
+
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 769px)  {
+	.container{
+		width: 61%;
+	}
+}

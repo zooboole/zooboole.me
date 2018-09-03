@@ -1,0 +1,16 @@
+header.header {
+	background-color: #dfe6e9;
+}
+header.header .header-content {
+	display: flex;
+	justify-content: stretch;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+
+@media screen and (min-width: 769px)  {
+	header.header .header-content {
+		flex-flow: row nowrap;
+	}
+}

@@ -1,0 +1,91 @@
+.work-intro {
+	border-bottom: 1px solid var(--color-grey);
+}
+
+.work-projects {
+	padding: 4rem 0;
+}
+
+.work-projects .container ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.work-projects .container ul, .container li{
+	margin: 0;
+	padding: 0;
+}
+.work-projects .container li button{
+	display: inline-block;
+	padding: 0.3rem 0.8rem;
+	border:1px solid #ededed;
+	border-radius: 15px;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
+	color: #666;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin: 0.2rem;
+	background-color: transparent;
+	transition: all 0.5s;
+	outline: none;
+}
+
+.work-projects .container li button:hover{
+	border:1px solid transparent;
+	background-color:#111;
+	color: var(--color-white);
+}
+
+.work-projects section {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.project-description {
+	min-width: 65%;
+}
+.project-details {
+	margin: 0;
+	padding: 0;
+	display: inherit!important;
+}
+.project-details li{
+	display: block;
+}
+
+.testimonies {
+	padding: 4rem 0;
+	border-top: 1px solid var(--color-grey);
+}
+
+.testimonies ul {
+	max-width: 100%;
+	overflow-x: auto;
+	display: flex;
+	align-items: center;
+}
+.testimonies ul li {
+	min-width: 200px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: var(--color-white);
+}
+.testimonies ul li p {
+	text-align: left;
+	font-size: 13px;
+}
+.testimonies ul li em, .testimonies ul li  strong {
+	font-size: 11px;
+	display: block;
+	font-weight: 100;
+	margin: 0;
+}
+@media screen and (min-width: 769px)  {
+	.work-projects section {
+		padding: 4rem 0;
+		flex-direction: row;
+	}
+}

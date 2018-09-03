@@ -1,0 +1,24 @@
+.sitefooter{
+	background-color: #f5f6fa;
+	padding: 1rem 0;
+	border-top: 2px solid #f2f0fa;
+}
+
+.footer-links {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-links li{
+	list-style-type: none;
+}
+
+.footer-links li a{
+	display: block;
+	padding: 0.4rem 0.7rem;
+}
+
+.footer-links li:first-child a{
+	padding-left:0;
+}

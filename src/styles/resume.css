@@ -1,0 +1,31 @@
+.cv {
+	padding: 2rem 0;
+}
+
+.cv h2{
+	text-transform: uppercase;
+}
+.cv h3{
+	color: var(--color-text);
+	margin: 0;
+	margin-top: 1rem;
+	padding: 0;
+}
+.cv p {
+	margin: 0;
+	padding: 0;
+}
+
+.button {
+	border: 1px solid var(--color-green);
+	padding: 0.3rem .5rem;
+}
+
+.download {
+	border-top: 1px solid var(--color-grey);
+	margin: 1rem 0;
+	padding: 1rem 0;
+}
+@media screen and (min-width: 769px)  {
+	
+}

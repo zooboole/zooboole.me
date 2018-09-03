@@ -1,0 +1,30 @@
+.profile {
+	background-color: #f5f6fa;
+	padding: 2rem 0;
+}
+
+.profile .container{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.profile-message {
+	padding: 0 1rem;
+}
+.profile-picture {
+	min-height: 200px;
+	min-width: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+	display:none;
+}
+
+@media screen and (min-width: 769px)  {
+	.profile-picture {
+		min-height: 290px;
+		min-width: 290px;
+		border: 2px solid #fff;
+		display: block;
+	}
+}

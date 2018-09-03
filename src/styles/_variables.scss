@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Montserrat:300,400,500');
+
+$font-family: 'Gaegu', cursive;
+$font-family: 'Montserrat', sans-serif;
+
+
+//LAYOUT
+$desktop: 1050px;
+$tablet: 768px;
+$hd: 1051px;
+
+// COLORS
+$color1: #0f936d;
+$color2: #046847;
+$color3: #f43806;
+
+
+$blue: #5bc0de;  //blue
+$green: #9CBE26;  //green
+$success: #5cb85c; //green
+$info: #5bc0de; //blue
+$warning: #f0ad4e; //orange
+$danger: #d9534f; //red
+
+$white: #ffffff;
+$black: #3a3a3a;
+$grey: #ccc;
+$grey-light: lighten( $grey, 16% );
+$grey-dark: darken( $grey, 20% );

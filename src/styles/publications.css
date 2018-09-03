@@ -1,0 +1,28 @@
+/* ARTICLES */
+.articles {
+	border: 1px solid #ddd;
+	margin: 0;
+	margin-bottom: 2rem;
+	padding: 3rem 2rem ;
+}
+.articles li {
+	list-style-type: decimal;
+}
+.articles li a{
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+	padding: 1rem 0.5rem;
+	line-height: 1.2rem;
+	color: var(--color-black);
+	font-weight: 200;
+}
+.articles li a:hover {
+	color: var(--color-green);
+}
+
+@media screen and (min-width: 769px)  {
+	.articles li a{
+		font-size: 1.7rem;
+	}
+}

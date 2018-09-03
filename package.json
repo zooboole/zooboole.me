@@ -1,0 +1,29 @@
+{
+  "name": "zooboole.me",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-ga": "^2.5.3",
+    "react-helmet": "^5.2.0",
+    "react-history": "^0.18.2",
+    "react-markdown": "^3.4.1",
+    "react-router-active-component": "^4.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-syntax-highlight": "^15.3.1",
+    "react-syntax-highlighter": "^8.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8888/",
+  "devDependencies": {
+    "cors": "^2.8.4"
+  }
+}
