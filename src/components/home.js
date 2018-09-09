@@ -13,7 +13,9 @@ class Home extends Component {
       scientists: []
     }
   }
-
+  componentWillMount(){
+    document.title='Welcome | zooboole'
+  }
   componentDidMount(){
    // Set some static data for now
     // Handle this later with a database
@@ -74,8 +76,6 @@ class Home extends Component {
     this.setState({
       scientists: list,
     })
-
-
   }
 	render() {
 		 // set the  today's quote as a static object
