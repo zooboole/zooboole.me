@@ -58,7 +58,7 @@ const Skills = () => (
 					<p>Hard working and self-taught Software Engineer with proven coding and management experience. I seek to apply my abilities to develop and maintain complex websites, applications, APIs, and keep an eye on the wellness of existing projects. </p>
 					<p>I can create clean interfaces, and also handle the backend services as well using PHP and Javascript as my core technologies. I am a versatile and bilingual(French, English) developer who pays good attention to a minute details while having clear vision of the overall idea.</p>
 					<p>I have built several projects ranging from simple static websites to full fledged business websites and desktop applications. Through that routine, I have acquired a good experience in team work and in software development lifecycle.</p>
-					<p><a href="CV_Ahmed_Salifou_Amidou_08_2018.pdf" className="button">Download my resum&eacute;</a></p>
+					<p><a href="https://drive.google.com/file/d/1Fp6DFBsYRg9GS1n7FGVBSQB_xkV9PXHG/view?usp=sharing" className="button">Download my resum&eacute;</a></p>
 				</div>
 			</div>
 			<section className="cv skills">
@@ -118,7 +118,7 @@ const Skills = () => (
 				</div>
 				<div className="download">
 					<div className="container">
-						<p><a href="CV_Ahmed_Salifou_Amidou_08_2018.pdf" className="button">Download my resum&eacute;</a></p>
+						<p><a href="https://drive.google.com/file/d/1Fp6DFBsYRg9GS1n7FGVBSQB_xkV9PXHG/view?usp=sharing" className="button">Download my resum&eacute;</a></p>
 					</div>
 				</div>
 			</section>
